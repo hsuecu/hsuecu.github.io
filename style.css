@@ -1,0 +1,79 @@
+.container{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 10px;
+    min-width: 350px;
+    max-width: 600px;
+    
+}
+
+.add-task-container{
+    border-bottom: 2px solid black;
+    padding: 5px 10px;
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+}
+
+#add{
+    flex: 0.3;
+    padding: 5px 10px;
+    background-color: rgb(59, 149, 213);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+button{
+    padding: 5px 10px;
+    background-color: rgb(59, 149, 213);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+#detail{
+    flex: 0.5;
+    padding: 5px 10px;
+}
+
+#task-list-holder{
+    padding: 5px 10px;
+}
+
+.task{
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin: 1px;
+}
+
+.task-id{
+    font-size: 0.7rem;
+    padding: 5px 10px;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.task-id:before{
+    content: "task id: ";
+}
+
+.info{
+    padding: 5px 10px;
+    word-wrap: break-word;
+    text-align: justify;
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+}
+
+.info-edit{
+    background-color:rgb(253, 179, 179) !important;
+}
+
+.task > button {
+    margin-right: 5px;
+}
+
+.task > *{
+    margin-top: 5px;
+}
